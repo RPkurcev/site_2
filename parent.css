@@ -1,0 +1,10 @@
+.info{
+    min-height: 30px;
+    display: table;
+    width: 100%;
+}
+
+.info .statement{
+    text-align: center;
+    vertical-align: middle;
+}

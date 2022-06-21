@@ -1,0 +1,212 @@
+.fon {
+	background: url(fon.jpg) no-repeat center center;
+	position: fixed;
+	background-size: cover;
+	position: absolute;
+    
+}
+
+body {
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+
+.b-page__line
+{
+    width: 1700px;
+    margin: 100px;
+    margin-top: 0px;    
+    border-color: white; 
+    background-color: white; 
+    height: 950px;
+    position: absolute;
+    
+}
+
+.twist{
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.right
+{
+	position: relative;
+    float:right;
+    margin-top: 10px;
+}
+
+.left {
+	margin-right: 50px;
+}
+
+.b-input
+{
+    background-color: #f3f3f3;
+    border:1px solid #e7e7e7;    
+}
+
+.b-search__input
+{
+    display:inline-block;
+}
+
+.b-input_search
+{
+    height:40px;
+    padding:0 10px;
+    width:350px;
+    border-right:none;
+}
+
+.b-button
+{
+    color:#fefefe;
+    height:40px;
+    padding:0 12px;
+    line-height:33px;
+    cursor:pointer;
+    background-color:#29c5e6;
+    border-color: #29c5e6;
+    }
+
+.side {
+	width: 100%;
+	background-color: #4169E1;
+	padding-left: 20px;
+    font-size: 20px;
+}
+
+
+a:hover{
+	background-color: white;
+	color: black;
+}
+
+a:focus {
+	outline: none;
+	background-color: white;
+}
+
+.submenu {
+	display: none;
+	flex-direction: column;
+	position: absolute;
+}
+
+ul {
+	display: flex;
+	padding-left: 0px;
+	list-style: none;
+}
+
+li {
+	position: relative;
+	margin-left: 10px;
+}
+
+li:hover > .submenu {
+	display: flex;
+}
+
+a {
+	display: block;
+	color: white;
+	text-decoration: none;
+	background-color:#4169E1;
+	padding: 1em;
+	white-space: nowrap;
+}
+
+.menu--vert {
+	flex-direction: column;
+	width: 200px;
+}
+
+.menu--vert .submenu {
+	top: 0;
+	left: 92%;
+}
+
+.bottom_border {
+	border-bottom: 3px solid;
+	border-color: #4169E1;
+
+}
+
+div h2 {
+	margin-left: 20px;
+}
+
+
+
+.cancel {
+	background-color: #f9f8f5;
+	color: black;
+}
+
+.footer {
+	background-color: #D3D3D3;
+	margin-top: 70px;
+	width: 100%;
+	height: 260px;
+	margin-bottom: 0px;
+	position: absolute;
+}
+
+ .indent {
+ 	font-size: 18px;
+    line-height: 1.7;
+    width: 50%;
+    margin-left: 20px;
+    border-right: 1px solid;
+    border-color: #696969; 
+    position: absolute;
+ }
+
+
+ @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+.social a {
+	text-align: center;
+    width: 48px;
+    height: 48px;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    border-radius: 24px;
+    margin: 0 10px 10px 0;
+    padding: 6px;
+    color: #000;
+}
+
+.vk a:hover {background: #5d84ae; color: #fff;}
+.odnoklassniki a:hover {background: #f93; color: #fff;}
+.telegram a:hover {background: #249bd7; color: #fff;}
+.whatsapp a:hover {background: #50b154; color: #fff;}
+
+.social-media {
+	float: right;
+	display: flex;
+	top: 0px;
+	margin-top: 40px;
+
+}
+
+.contact {
+	float: right;
+	top: 0px;
+  	margin-left: 80%;
+  	margin-top: 0px;
+  	margin-right: 40px; 
+}
+
+.poem-text {
+	white-space: normal;
+	word-wrap: break-word;
+	line-height: 1.7;
+	padding-left: 30px;
+	font-size: 18px;
+	font-family: "Roboto" ,"Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-right: 500px;
+
+}
